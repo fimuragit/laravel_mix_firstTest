@@ -1,0 +1,20 @@
+h1 {
+  background-color: lightyellow;
+  color: lightcoral;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+main {
+  height: 150px;
+  width: 150px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+

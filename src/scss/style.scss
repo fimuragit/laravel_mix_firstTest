@@ -1,0 +1,28 @@
+@mixin dimensioni_generali {
+  height: 150px;
+  width: 150px;
+  border: 1px solid lightgray;
+}
+
+$main_color: lightcoral;
+$text: center;
+
+
+h1{
+  background-color: lightyellow;
+  color: $main_color;
+  text-align: $text;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+main{
+ @include dimensioni_generali;
+ text-align: $text;
+}
