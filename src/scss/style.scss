@@ -25,4 +25,18 @@ h1{
 main{
  @include dimensioni_generali;
  text-align: $text;
+ p{
+   color: $main_color;
+   text-decoration: overline;
+ }
+
+}
+
+nav{
+  @include dimensioni_generali;
+  background-color: lightgreen;
+}
+aside{
+  @include dimensioni_generali;
+  background-color: lightblue;
 }

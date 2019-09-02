@@ -18,3 +18,22 @@ main {
   text-align: center;
 }
 
+main p {
+  color: lightcoral;
+  text-decoration: overline;
+}
+
+nav {
+  height: 150px;
+  width: 150px;
+  border: 1px solid lightgray;
+  background-color: lightgreen;
+}
+
+aside {
+  height: 150px;
+  width: 150px;
+  border: 1px solid lightgray;
+  background-color: lightblue;
+}
+
