@@ -1,12 +1,32 @@
+
+// variabili generiche -colore e taglia-
+$main_color: lightcoral;
+$text: center;
+$text_size_big: 50px;
+$text_size_small: 12px;
+
+
 @mixin dimensioni_generali {
   height: 150px;
   width: 150px;
   border: 1px solid lightgray;
 }
 
-$main_color: lightcoral;
-$text: center;
 
+
+@import 'header';
+
+header{
+  h1{
+    font-size: $text_size_big;
+  }
+}
+
+footer{
+  h1{
+    font-size: $text_size_small;
+  }
+}
 
 h1{
   background-color: lightyellow;
