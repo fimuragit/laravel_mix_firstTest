@@ -13,23 +13,11 @@ $text_size_small: 12px;
 }
 
 
-
 @import 'header';
+@import 'footer';
 
-header{
-  h1{
-    font-size: $text_size_big;
-  }
-}
-
-footer{
-  h1{
-    font-size: $text_size_small;
-  }
-}
 
 h1{
-  background-color: lightyellow;
   color: $main_color;
   text-align: $text;
 

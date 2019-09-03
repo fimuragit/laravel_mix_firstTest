@@ -8,12 +8,17 @@ header h1 {
   font-size: 50px;
 }
 
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: lightpink;
+}
+
 footer h1 {
   font-size: 12px;
 }
 
 h1 {
-  background-color: lightyellow;
   color: lightcoral;
   text-align: center;
 }
